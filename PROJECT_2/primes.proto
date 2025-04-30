@@ -1,0 +1,49 @@
+syntax = "proto3";
+
+package primes;
+
+option go_package = "./primespb";
+
+// Dispatcher service
+service Dispatcher {
+  rpc GetJob (Empty) returns (Job);
+}
+
+// Consolidator service
+service Consolidator {
+  rpc SubmitResult (Result) returns (Ack);
+}
+
+// Fileserver service (NEW)
+service FileServer {
+  rpc StreamChunk (FileRequest) returns (stream FileChunk);
+}
+
+// Messages
+message Empty {}
+
+message Job {
+  string filename = 1;
+  int64 start = 2;
+  int32 size = 3;
+}
+
+message Result {
+  int64 start = 1;
+  int32 primeCount = 2;
+}
+
+message Ack {
+  string message = 1;
+}
+
+// New messages for Fileserver
+message FileRequest {
+  string filename = 1;
+  int64 start = 2;
+  int32 size = 3;
+}
+
+message FileChunk {
+  bytes content = 1;
+}

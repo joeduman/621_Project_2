@@ -1,0 +1,7 @@
+2025/04/29 22:19:11 Worker: Pulled job offset=0 size=16384
+2025/04/29 22:21:14 Worker finished processing job. Found 38 primes.
+2025/04/29 22:21:14 Total elapsed time: 123.20s
+2025/04/29 22:21:14 Worker: Pulled job offset=65536 size=16384
+2025/04/29 22:24:14 Worker finished processing job. Found 58 primes.
+2025/04/29 22:24:14 Total elapsed time: 303.10s
+2025/04/29 22:24:14 No more jobs from Dispatcher. Exiting...

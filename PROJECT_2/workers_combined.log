@@ -1,0 +1,19 @@
+2025/04/29 22:19:11 Worker: Pulled job offset=32768 size=16384
+2025/04/29 22:21:39 Worker finished processing job. Found 52 primes.
+2025/04/29 22:21:39 Total elapsed time: 148.05s
+2025/04/29 22:21:39 No more jobs from Dispatcher. Exiting...
+2025/04/29 22:19:11 Worker: Pulled job offset=49152 size=16384
+2025/04/29 22:21:52 Worker finished processing job. Found 57 primes.
+2025/04/29 22:21:52 Total elapsed time: 160.84s
+2025/04/29 22:21:52 No more jobs from Dispatcher. Exiting...
+2025/04/29 22:19:11 Worker: Pulled job offset=16384 size=16384
+2025/04/29 22:21:23 Worker finished processing job. Found 44 primes.
+2025/04/29 22:21:23 Total elapsed time: 132.22s
+2025/04/29 22:21:23 No more jobs from Dispatcher. Exiting...
+2025/04/29 22:19:11 Worker: Pulled job offset=0 size=16384
+2025/04/29 22:21:14 Worker finished processing job. Found 38 primes.
+2025/04/29 22:21:14 Total elapsed time: 123.20s
+2025/04/29 22:21:14 Worker: Pulled job offset=65536 size=16384
+2025/04/29 22:24:14 Worker finished processing job. Found 58 primes.
+2025/04/29 22:24:14 Total elapsed time: 303.10s
+2025/04/29 22:24:14 No more jobs from Dispatcher. Exiting...

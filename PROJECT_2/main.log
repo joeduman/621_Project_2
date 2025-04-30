@@ -1,0 +1,15 @@
+2025/04/29 22:19:09 Starting Prime Counter Server...
+2025/04/29 22:19:09 Dispatcher: Created 5 jobs.
+2025/04/29 22:19:09 Wrote configuration to primes_config.txt
+2025/04/29 22:19:09 Consolidator server running on port 5002
+2025/04/29 22:19:09 Dispatcher server running on port 5001
+2025/04/29 22:19:11 Dispatcher: Assigned job Offset=0 Size=16384
+2025/04/29 22:19:11 Dispatcher: Assigned job Offset=16384 Size=16384
+2025/04/29 22:19:11 Dispatcher: Assigned job Offset=32768 Size=16384
+2025/04/29 22:19:11 Dispatcher: Assigned job Offset=49152 Size=16384
+2025/04/29 22:21:14 Consolidator: Received primes=38 for segment starting at 0. Total so far: 38
+2025/04/29 22:21:14 Dispatcher: Assigned job Offset=65536 Size=16384
+2025/04/29 22:21:23 Consolidator: Received primes=44 for segment starting at 16384. Total so far: 82
+2025/04/29 22:21:39 Consolidator: Received primes=52 for segment starting at 32768. Total so far: 134
+2025/04/29 22:21:52 Consolidator: Received primes=57 for segment starting at 49152. Total so far: 191
+2025/04/29 22:24:14 Consolidator: Received primes=58 for segment starting at 65536. Total so far: 249

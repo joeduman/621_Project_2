@@ -1,0 +1,7 @@
+2025/04/29 22:19:08 Starting Fileserver...
+2025/04/29 22:19:08 Fileserver is running on port 5003
+2025/04/29 22:19:11 Fileserver: Finished streaming segment from offset 0, size 16384
+2025/04/29 22:19:11 Fileserver: Finished streaming segment from offset 32768, size 16384
+2025/04/29 22:19:11 Fileserver: Finished streaming segment from offset 16384, size 16384
+2025/04/29 22:19:11 Fileserver: Finished streaming segment from offset 49152, size 16384
+2025/04/29 22:21:14 Fileserver: Finished streaming segment from offset 65536, size 16384
